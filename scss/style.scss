@@ -25,7 +25,7 @@ $trans-time: 0.2s;
 body {
     @include text();
     @include madding(0, 0);
-    background: rgba($off-black, $alpha: 0.2) url(/images/pexels-eberhard-grossgasteiger-844297.jpg);
+    background: rgba($off-black, $alpha: 0.2) url(./images/pexels-eberhard-grossgasteiger-844297.jpg);
     background-blend-mode: darken;
     height: 100vh;
     @include flexCenter(row);
