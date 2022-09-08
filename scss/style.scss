@@ -114,6 +114,7 @@ body {
     }
     .column {
         width: 50%;
+        padding-right: 5%;
     }
 }
 #colCon {
@@ -130,34 +131,44 @@ body {
     }
 }
 .job {
-    font-size: 20px;
+    font-size: 23px;
 }
 .bold {
     font-weight: 500;
 }
 h4 {
     margin: 5px 0;
-    font-size: 15px;
+    font-size: 20px;
     color: variables.$off-grey;
     font-weight: 400;
 }
 h3 {
     margin: 0;
     font-weight: 300;
-    font-size: 20px;
+    font-size: 22px;
     margin-bottom: 20px;
 }
 .skills {
     li {
-        font-size: 20px;
+        font-size: 22px;
     }
 }
 
+
 @media (max-width: 700px) {
+    body {
+        position: static;
+        top: 0;
+        left: 1000px;
+        background-color: variables.$off-black;
+        }
     #box {
         @include madding(0, 5%);
-        width: 100%;
+        width: 200000%;
         height: 100%;
+        background-color: variables.$off-black;
+        border-radius: 0px;
+        border: none;
     }
     .header {
         flex-flow: column;
