@@ -19,17 +19,17 @@ body::after {
   filter: blur(10px);
   content: "";
   position: absolute;
-  width: 103%;
-  height: 103%;
+  width: 100%;
+  height: 100%;
   top: 0;
-  left: -10px;
+  left: 0px;
   z-index: -1;
 }
 
 #box {
   font-family: "Jost", sans-serif;
   color: #FBFBFF;
-  margin: 3% 0 0 0;
+  margin: 3% 0;
   padding: 5%;
   font-weight: 300;
   background-color: rgba(20, 20, 20, 0.9);
@@ -66,7 +66,7 @@ body::after {
   transition: 0.2s;
 }
 .contact a:hover {
-  color: #20BF55;
+  color: #20bf55;
   transition: 0.2s;
 }
 
@@ -85,7 +85,7 @@ body::after {
   padding: 0;
   font-weight: 300;
   font-size: 30px;
-  color: #20BF55;
+  color: #20bf55;
 }
 
 .container {
@@ -186,18 +186,16 @@ h3 {
 @media (max-width: 700px) {
   body, body::after {
     position: static;
-    top: 0;
-    left: 1000px;
+    display: block;
     background-color: #141414;
   }
   #box {
     margin: 0;
-    padding: 5%;
+    padding: 0%;
     font-weight: 300;
-    width: 200000%;
+    width: 100%;
     height: 100%;
     background-color: #141414;
-    border-radius: 0px;
     border: none;
   }
   .header {
@@ -244,7 +242,7 @@ h3 {
 @media (max-width: 400px) {
   #box {
     margin: 0;
-    padding: 5%;
+    padding: 0%;
     font-weight: 300;
     width: 100%;
     height: 100%;
